@@ -58,7 +58,7 @@ mvn spring-boot:run
 
 ### DOCUMENTATION
 
-To view Documentation on the **ROBOT APOCALYPSE API**. Kindly go the path below and open **`index.html`** with any browser of your choice.
+To view Documentation on the **ROBOT APOCALYPSE API**. Kindly go to the path below and open **`index.html`** with any browser of your choice.
 ```shell
 target/generated-docs
 ```
