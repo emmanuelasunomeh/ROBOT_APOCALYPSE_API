@@ -1,0 +1,61 @@
+== ROBOT APOCALYPSE API DOCUMENTATION
+
+This is an example output for a service running at http://localhost:8080:
+
+=== POST CREATE SURVIVOR
+request.
+include::{snippets}/testCreateSurvivor/http-request.adoc[]
+response.
+include::{snippets}/testCreateSurvivor/http-response.adoc[]
+
+
+=== POST UPDATE SURVIVAL LOCATION
+request.
+include::{snippets}/testUpdateSurvivorLocation/http-request.adoc[]
+response.
+include::{snippets}/testUpdateSurvivorLocation/http-response.adoc[]
+
+
+
+=== GET INDICATED INFECTED SURVIVAL
+request.
+include::{snippets}/testIndicateInfectedSurvivor/http-request.adoc[]
+response.
+include::{snippets}/testIndicateInfectedSurvivor/http-response.adoc[]
+
+
+
+=== GET PERCENTAGE OF INFECTED SURVIVOR
+request.
+include::{snippets}/testGetPercentageOfInfectedSurvivor/http-request.adoc[]
+response.
+include::{snippets}/testGetPercentageOfInfectedSurvivor/http-response.adoc[]
+
+
+
+=== GET PERCENTAGE OF NON INFECTED SURVIVOR
+request.
+include::{snippets}/testGetPercentageOfNonInfectedSurvivor/http-request.adoc[]
+response.
+include::{snippets}/testGetPercentageOfNonInfectedSurvivor/http-response.adoc[]
+
+
+
+=== GET LIST OF INFECTED SURVIVOR
+request.
+include::{snippets}/testGetListOfInfectedSurvivor/http-request.adoc[]
+response.
+include::{snippets}/testGetListOfInfectedSurvivor/http-response.adoc[]
+
+=== GET LIST OF NON INFECTED SURVIVOR
+request.
+include::{snippets}/testGetListOfNonInfectedSurvivor/http-request.adoc[]
+response.
+include::{snippets}/testGetListOfNonInfectedSurvivor/http-response.adoc[]
+
+
+=== GET ALL ROBOT CPU
+request.
+include::{snippets}/testGetAllRobotCPU/http-request.adoc[]
+response.
+include::{snippets}/testGetAllRobotCPU/http-response.adoc[]
